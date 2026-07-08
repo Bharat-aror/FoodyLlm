@@ -1,6 +1,4 @@
 # FoodyLlm
-# FoodyLLM
-
 A fine-tuned Llama 3 8B nutrition assistant that estimates ingredients and per-100g nutritional values from a natural language dish description.
 
 ## Overview
@@ -49,10 +47,6 @@ FoodyLLM fine-tunes Meta's Llama 3 8B Instruct model using QLoRA to build a doma
 - Requires a Hugging Face access token to download the base model and push the fine-tuned version — set as an environment variable, never hardcoded
 - Requires a Kaggle API key to download the dataset — same rule applies
 - Designed to run on a GPU-backed environment (developed on Google Colab)
-
-## Model
-
-Fine-tuned model available at [`Bharat773/FoodyLLM-global`](https://huggingface.co/Bharat773/FoodyLLM-global) on Hugging Face.
 
 ## Author
 
